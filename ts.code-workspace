@@ -5,10 +5,11 @@
     }
   ],
   "settings": {
-    "eslint.enable": true,
     "eslint.validate": ["javascript", "typescript"],
     "eslint.packageManager": "yarn",
-    "eslint.autoFixOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
     "typescript.tsdk": "node_modules/typescript/lib",
     "files.exclude": {
       "**/.git": true,
